@@ -1,0 +1,163 @@
+// Task 1
+
+/*static void Main(string[] args)
+{
+    int day = Input("День недели: ");
+    string dayName = Day(day);
+    Console.WriteLine($"День недели: {dayName}");
+    Console.ReadLine();
+}
+static string Day(int day)
+{
+    string dayOfTheWeek = "";
+    switch(day)
+    {
+        case 1: dayOfTheWeek = "Понедельник"; break;
+        case 2: dayOfTheWeek = "Вторник"; break ;
+        case 3: dayOfTheWeek = "Среда"; break;
+        case 4: dayOfTheWeek = "Четверг"; break;
+        case 5: dayOfTheWeek = "Пятница"; break;
+        case 6: dayOfTheWeek = "Суббота"; break;
+        case 7: dayOfTheWeek = "Воскресенье"; break;
+    }
+    return dayOfTheWeek;
+}
+static int Input(string message)
+{ 
+    Console.Write(message);
+    try
+    {
+        return Convert.ToInt32(Console.ReadLine());
+    }
+    catch (FormatException)
+    {
+        Console.WriteLine("Ошибка ввода!");
+    }
+}*/
+
+// Task 3
+
+/*static void Main(string[] args)
+{
+    int day = Input("Номер месяца: ");
+    string season = Season(day);
+    Console.WriteLine($"Время года: {season}");
+    Console.ReadLine();
+}
+static string Season(int day)
+{
+    string season = "";
+    switch (day)
+    {
+        case 1: case 2: case 12: season = "Зима"; break;
+        case 3: case 4: case 5: season = "Весна"; break;
+        case 6: case 7: case 8: season = "Лето"; break;
+        case 9: case 10: case 11: season = "Осень"; break;
+    }
+    return season;
+}
+static int Input(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+}*/
+
+// Task 4
+
+ /*static void Main(string[] args)
+ {
+     string firstLetter = Input("Первая буква предмета: ");
+     string subject = Subject(firstLetter);
+     Console.WriteLine($"Предмет: {subject}");
+     Console.ReadLine();
+ }
+ static string Subject(string firstLetter)
+ {
+     string subject = "";
+     switch (firstLetter.ToLower())
+     {
+         case "ф": subject = "Физика"; break;
+         case "м": subject = "Математика"; break;
+         case "и": subject = "История"; break;
+         case "г": subject = "География"; break;
+         case "б": subject = "Биология"; break;
+     }
+     return subject;
+ }
+ static string Input(string message)
+ {
+     Console.Write(message);
+     return Console.ReadLine();
+ }*/
+
+// Task 5
+
+
+/*static void Main(string[] args)
+{
+    string firstLetter = Input("Первая буква транспорта: ");
+    string transport = Transport(firstLetter);
+    string maxSpeed = MaxSpeed(transport);
+    Console.WriteLine($"Вид транспорта: {transport}");
+    Console.WriteLine($"Максимальная скорость: {maxSpeed} км/ч!");
+    Console.ReadLine();
+}
+static string MaxSpeed(string transport)
+{
+    string maxSpeed = "";
+    switch (transport)
+    {
+        case "Автомобиль": maxSpeed = "60"; break;
+        case "Велосипед": maxSpeed = "15"; break;
+        case "Мотоцикл": maxSpeed = "120"; break;
+        case "Самолет": maxSpeed = "1000"; break;
+        case "Поезд": maxSpeed = "250"; break;
+    }
+    return maxSpeed;
+}
+static string Transport(string firstLetter)
+{
+    string transport = "";
+    switch (firstLetter.ToLower())
+    {
+        case "a": transport = "Автомобиль"; break;
+        case "в": transport = "Велосипед"; break;
+        case "м": transport = "Мотоцикл"; break;
+        case "с": transport = "Самолет"; break;
+        case "п": transport = "Поезд"; break;
+    }
+    return transport;
+}
+static string Input(string message)
+{
+    Console.Write(message);
+    return Console.ReadLine();
+}*/
+
+// Task 6 unfinished
+
+/*static void Main(string[] args)
+{
+    string firstLetter = Input("Первая буква транспорта: ");
+    string figure = Figure(firstLetter);
+    
+    Console.ReadLine();
+}
+
+static string Figure(string firstLetter)
+{
+    string figure = "";
+    switch (firstLetter.ToLower())
+    {
+        case "к": figure = "Круг"; break;
+        case "п": figure = "Прямоугольник"; break;
+        case "т": figure = "Треугольник"; break;
+    }
+    return figure;
+}
+
+static string Input(string message)
+{
+    Console.Write(message);
+    return Console.ReadLine();
+}*/
